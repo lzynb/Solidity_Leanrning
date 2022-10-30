@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"水龙头/Faucet.sol": "Fauc3e"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"水龙头/Faucet.sol": {
+			"keccak256": "0xadf3f7cacbe23d50cfbd3f6f48c9238d62a88330ed73726e3708735027dc043e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://254c900ce81ba3b77cd6b9d2b75784bc9259c9e7b6fba75976b46ac5c34775e0",
+				"dweb:/ipfs/QmXfxWPL4nFhwmaLbB7AnH9GNqMGJAMbYRrwEjHKr9XH4k"
+			]
+		}
+	},
+	"version": 1
+}

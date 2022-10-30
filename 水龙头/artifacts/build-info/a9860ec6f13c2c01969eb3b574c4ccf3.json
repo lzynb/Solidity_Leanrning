@@ -1,0 +1,68 @@
+{
+	"id": "a9860ec6f13c2c01969eb3b574c4ccf3",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.7",
+	"solcLongVersion": "0.8.7+commit.e28d00a7",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"水龙头/Faucet.sol": {
+				"content": "// SPDX-License-Identifier: MIT\r\n// WTF Solidity by 0xAA\r\n\r\npragma solidity ^0.8.4;\r\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"sources": {
+			"水龙头/Faucet.sol": {
+				"ast": {
+					"absolutePath": "水龙头/Faucet.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".4"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "60:23:0"
+						}
+					],
+					"src": "60:25:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
