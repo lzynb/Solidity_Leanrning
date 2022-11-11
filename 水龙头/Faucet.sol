@@ -1,5 +1,4 @@
 // SPDX-License-Identifier: MIT
-// WTF Solidity by 0xAA
 import "../ERC20/IERC20.sol";
 pragma solidity ^0.8.4;
 

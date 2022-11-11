@@ -124,11 +124,11 @@
 			]
 		},
 		"水龙头/Faucet.sol": {
-			"keccak256": "0x63dbc09cfab44c1f69bf8a2c0bc4097afeba88707d0a945a2e537cdf96e7d36f",
+			"keccak256": "0x2924461f38d30135a46a028a9a02af8ed9fc9dc30ebdd66229e21c339051c7dc",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8d56431daa495b1059ddaa46071d17a8c0c3494d8cca9d65ab386d02e2b23d3c",
-				"dweb:/ipfs/QmV6cNYnCB3tD9341FxqHpfoJqnJf7NkVxUdioci7WRJmg"
+				"bzz-raw://c50cf22cc7a2f1e1f22c2f5ba529c4f0fcf61e9246da89a23739362e4383c487",
+				"dweb:/ipfs/QmU5zb11Lo8EnCiGZbkPctCWRUDT6ikamKNFyd6EGkhLzu"
 			]
 		}
 	},
