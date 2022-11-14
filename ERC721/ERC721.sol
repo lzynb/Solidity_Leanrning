@@ -149,6 +149,30 @@ contract ERC721 is IERC721,IERC721Metadata{
         }
     }
 
+
+    function _mint(address to,uint tokenID) internal virtual{
+        require(to != address(0),"address can't be zero address!");
+        require(_owner[tokenID] == address(0),"token already minted");
+
+        _balance[to] += 1;
+        _owner[tokenID] = to;
+
+        emit Transfer(address(0), to, tokenID);
+    }
+
+    function _burn(uint tokenID) internal virtual{
+        address owner = _owner[tokenID];
+        require(owner == msg.sender,"not owner of token");
+
+        _approve(owner,address(0),tokenID);
+
+        _balance[owner] -= 1;
+        delete _owner[tokenID];
+
+        emit Transfer(owner,address(0),tokenID);
+    }
+
+
     /**
      * 实现IERC721Metadata的tokenURI函数，查询metadata。
      */

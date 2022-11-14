@@ -9,12 +9,12 @@
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "_name",
+						"name": "name_",
 						"type": "string"
 					},
 					{
 						"internalType": "string",
-						"name": "_symbol",
+						"name": "symbol_",
 						"type": "string"
 					}
 				],
@@ -97,6 +97,19 @@
 				"type": "event"
 			},
 			{
+				"inputs": [],
+				"name": "MAX_APES",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -174,6 +187,24 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "tokenId",
+						"type": "uint256"
+					}
+				],
+				"name": "mint",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -369,7 +400,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"ERC721/ERC721.sol": "ERC721"
+			"ERC721/Ape.sol": "WTFApe"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -389,6 +420,14 @@
 			"urls": [
 				"bzz-raw://1f492bb75b88bc52c1d3f9c9b11b116e53f91ef98166312af033674b49f947be",
 				"dweb:/ipfs/Qmb5AnYW6jydvgBuJoEN2XXKJjkmNaC3XueF8mZbrxg32z"
+			]
+		},
+		"ERC721/Ape.sol": {
+			"keccak256": "0xc0f436fd69407e0abed715f1d8bc6504e41c3dc0250802fe6dc92634150fc3b3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1f108c11eee761ac4110bacc3c69b1d5a6bdc5cf0a6451ad8b672c283cbbb217",
+				"dweb:/ipfs/QmXTaS9t1v9NGmgxg45CBD9nfKR8udakxm6oni4pSXKris"
 			]
 		},
 		"ERC721/ERC721.sol": {
